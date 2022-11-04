@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 
 
-PESO = (3.5, 7.5)
+PESOS = (3.5, 7.5)
 
 
 def main():
     a, b = input(), input()
     if isfloat(a, b):
         a, b = float(a), float(b)
-        media = (a * PESO[0] + b * PESO[1]) / (PESO[0] + PESO[1])
+        media = (a * PESOS[0] + b * PESOS[1]) / (PESOS[0] + PESOS[1])
         print(f'MEDIA = {media:.5f}')
 
 
