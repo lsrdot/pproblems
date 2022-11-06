@@ -2,8 +2,8 @@
 
 
 def main():
-    t = int(input())
-    v = int(input())
+    t, v = int(input()), int(input())
+    print(f'{(t * v) / 12:.3f}')
 
 
 if __name__ == '__main__':
